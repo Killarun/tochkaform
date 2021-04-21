@@ -1,0 +1,31 @@
+.transport-value__header{
+    display: flex;
+    margin-bottom: 16px;
+    img {
+        padding-right: 8px;
+    }
+}
+// .transport-value {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-bottom: 40px;
+// }
+.transport-value__weight  {
+    display: grid;
+    gap: 8px;
+ 
+}
+.transport-value__loading-type{
+    display: grid;
+    gap: 8px;
+    }
+
+.transpor-value-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.transport-value {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,15 @@
+.time__header {
+    display: flex;
+    margin-bottom: 16px;
+    img {
+        padding-right: 8px;
+    }
+}
+.time-form-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+.time{
+    margin-bottom: 40px;
+}

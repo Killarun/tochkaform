@@ -1,0 +1,115 @@
+.fields-adress-from {
+    display: grid;
+    position: relative;
+    margin-bottom: 10px;
+    gap: 8px;
+
+}
+
+
+.input-wrap {
+    display: grid;
+
+
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #4B4B4F;
+    position: relative;
+}
+
+.input-wrap::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+
+    background: -moz-linear-gradient(left, rgba(75, 75, 79, 0.2), rgba(75, 75, 79, 1), rgba(75, 75, 79, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(75, 75, 79, 0.2), rgba(75, 75, 79, 1), rgba(75, 75, 79, 1) 100%);
+    background: -o-linear-gradient(left, rgba(75, 75, 79, 0.2), rgba(75, 75, 79, 1), rgba(75, 75, 79, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(75, 75, 79, 0.2), rgba(75, 75, 79, 1), rgba(75, 75, 79, 1) 100%);
+    background: linear-gradient(left, rgba(75, 75, 79, 0.2), rgba(75, 75, 79, 1), rgba(75, 75, 79, 1) 100%);
+}
+
+.fields-adress-to {
+    display: grid;
+    position: relative;
+    margin-bottom: 10px;
+    gap: 8px;
+
+    input {
+        background-color: #4B4B4F;
+    }
+
+}
+
+.fields {
+    div:nth-child(2n) {
+        margin-bottom: 16px;
+    }
+}
+
+.filds-adress-btn {
+
+    padding: 4px 14px 4px 14px;
+    text-transform: uppercase;
+    background-color: #717174;
+    line-height: 15.51px;
+    // letter-spacing: 5%;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.fields-adress-checkbox {
+    position: absolute;
+    top: 22px;
+    left: 5px;
+}
+
+.fields-adress-checkbox-lable {
+    position: absolute;
+    left: 30px;
+    top: 32px;
+    color: #000;
+}
+
+.fields-adress-input {
+    padding-left: 36px;
+    color: #fff;
+    background-color: #4B4B4F;
+}
+
+// .fields-adress-label{
+//     margin-bottom: 8px;
+// }
+.fields-adress-dot-from {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    padding-left: 8px;
+}
+
+.fields-adress-dot-to {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding-left: 8px;
+}
+
+.fields-adress-comment {
+    display: grid;
+    gap: 8px;
+}
+
+.fields-adress-comment-text {
+    padding: 14px 20px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #CFCFCF;
+}
+.fields-adress-form-text {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,50 @@
+body {
+    padding: 0 16px;
+    background-color: #343539;
+    color: #ffffff;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-size: 13px;
+   
+
+    @media (min-width: 768px) {
+      width: 1270px;
+      
+    }
+ 
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+h2 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24.42px; 
+}  
+  input, select{
+      height: 44px;;
+     
+        padding: 0 0 0 14px;
+    
+  }
+  .btn-from {
+    position: absolute;
+   
+    right: 5px;
+    top: 32px;
+}
+
+.btn-to {
+    position: absolute;
+   opacity: 0.5;
+    right: 5px;
+    top: 10px;
+}

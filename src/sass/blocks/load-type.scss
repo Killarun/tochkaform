@@ -1,0 +1,35 @@
+.load-type__header {
+    display: flex;
+    margin-bottom: 16px;
+    img {
+        padding-right: 8px;
+    }
+}
+
+// .load-type {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-bottom: 40px;
+// }
+// .load-type__wrapper{
+//     display: grid;
+    
+// }
+.load-type__cargo  {
+    display: grid;
+    gap: 8px;
+ 
+}
+.load-type__cargo-price{
+    display: grid;
+    gap: 8px;
+    &--default {
+        color: #999;
+    }
+   
+}
+.load-type-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}

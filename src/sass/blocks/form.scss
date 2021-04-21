@@ -1,0 +1,10 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    @media (min-width: 768px)
+    {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+}

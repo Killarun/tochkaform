@@ -1,0 +1,27 @@
+.transport-field__from  {
+    display: grid;
+    margin-bottom: 16px;
+    label {
+      margin-bottom: 8px;  
+    }
+}
+.transport-field__to{
+    display: grid;
+    label {
+        margin-bottom: 8px;  
+      }
+}
+.transport-field__header {
+    display: flex;
+    margin-bottom: 16px;
+    img {
+        padding-right: 8px;
+    }
+}
+
+.transport-field__from-name {
+    height: 44px;
+}
+.transport-field {
+    margin-bottom: 40px;
+}
